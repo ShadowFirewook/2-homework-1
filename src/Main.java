@@ -1,16 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        Eyes eyes = new Eyes("зеленый","овальная");
-        Reptile crocodile = new Reptile("Крокодил","Мужской",Colour.Green,eyes,"нет",
-                "да","да ");
+        Eyes eyes = new Eyes("Р·РµР»РµРЅС‹Р№","РѕРІР°Р»СЊРЅР°СЏ");
+        Reptile crocodile = new Reptile("РљСЂРѕРєРѕРґРёР»","РњСѓР¶СЃРєРѕР№",Colour.Green,eyes,"РЅРµС‚",
+                "РґР°","РґР° ");
         System.out.println(crocodile.info());
         crocodile.age();
         crocodile.age(5);
-        Snake cobra = new Snake("Кобра","Женская",Colour.Black,eyes,"да","да","да",4,"да");
+        Snake cobra = new Snake("РљРѕР±СЂР°","Р–РµРЅСЃРєР°СЏ",Colour.Black,eyes,"РґР°","РґР°","РґР°",4,"РґР°");
         System.out.println(cobra.info());
         cobra.age();
         cobra.age(20);
-        Snake python = new Snake("Питон", "Мужской",Colour.White,eyes,"да","да","да",7,"нет");
+        Snake python = new Snake("РџРёС‚РѕРЅ", "РњСѓР¶СЃРєРѕР№",Colour.White,eyes,"РґР°","РґР°","РґР°",7,"РЅРµС‚");
         System.out.println(python.info());
         python.age();
         python.age(13);
