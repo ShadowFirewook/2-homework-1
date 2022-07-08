@@ -11,25 +11,26 @@ public class Animal {
         return gender;
     }
 
-    public Colour getBodyÑolor() {
-        return bodyÑolor;
+    public Colour getBodyÃ‘olor() {
+        return bodyÃ‘olor;
     }
 
     public Eyes getEyes() {
         return eyes;
     }
 
-    private Colour bodyÑolor;
+    private Colour bodyÃ‘olor;
     private Eyes eyes;
 
-    public Animal(String name, String gender, Colour bodyÑolor, Eyes eyes) {
+    public Animal(String name, String gender, Colour bodyÃ‘olor, Eyes eyes) {
         this.name = name;
         this.gender = gender;
-        this.bodyÑolor = bodyÑolor;
+        this.bodyÃ‘olor = bodyÃ‘olor;
         this.eyes = eyes;
     }
 
     public String info(){
-        return "\nÂèä: " + name + " \nÏîë: " + gender + " \nÖâåò: " + bodyÑolor + " \nÖâåò ãëàç: " + eyes.getColour() + " \nÔîğìà ãëàç: " + eyes.getForm();
+        return "\nÃ‚Ã¨Ã¤: " + name + " \nÃÃ®Ã«: " + gender + " \nÃ–Ã¢Ã¥Ã²: " + bodyÃ‘olor + " \nÃ–Ã¢Ã¥Ã² Ã£Ã«Ã Ã§: " + eyes.getColour() + " \nÃ”Ã®Ã°Ã¬Ã  Ã£Ã«Ã Ã§: " + eyes.getForm();
     }
 }
+ 
