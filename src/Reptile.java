@@ -17,22 +17,23 @@ public class Reptile extends Animal {
         return isItPredator;
     }
 
-    public Reptile(String name, String gender, Colour bodyСolor, Eyes eyes, String isHaveScale, String isCanSwim,String isItPredator) {
-        super(name,  gender, bodyСolor, eyes);
+    public Reptile(String name, String gender, Colour bodyРЎolor, Eyes eyes, String isHaveScale, String isCanSwim,String isItPredator) {
+        super(name,  gender, bodyРЎolor, eyes);
         this.isHaveScale = isHaveScale;
         this.isCanSwim = isCanSwim;
         this.isItPredator = isItPredator;
     }
     @Override
     public String info(){
-        return super.info() + " \nИмеет ли чешую: " + isHaveScale + " \nУмеет ли плавать: " + isCanSwim + " \nЯвляется ли хищником: " + isItPredator;
+        return super.info() + " \nРРјРµРµС‚ Р»Рё С‡РµС€СѓСЋ: " + isHaveScale + " \nРЈРјРµРµС‚ Р»Рё РїР»Р°РІР°С‚СЊ: " + isCanSwim + " \nРЇРІР»СЏРµС‚СЃСЏ Р»Рё С…РёС‰РЅРёРєРѕРј: " + isItPredator;
     }
     final void age(){
-        System.out.println("Рептилии живут до 100 лет");
+        System.out.println("Р РµРїС‚РёР»РёРё Р¶РёРІСѓС‚ РґРѕ 100 Р»РµС‚");
     }
 
     void age(int age){
-        System.out.println("Возраст этой рептилии: " + age + " лет");
+        System.out.println("Р’РѕР·СЂР°СЃС‚ СЌС‚РѕР№ СЂРµРїС‚РёР»РёРё: " + age + " Р»РµС‚");
     }
 
 }
+
