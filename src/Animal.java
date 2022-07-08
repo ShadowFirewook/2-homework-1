@@ -11,7 +11,7 @@ public class Animal {
         return gender;
     }
 
-    public Colour getBodyÑolor() {
+    public Colour getBodyColor() {
         return bodyÑolor;
     }
 
@@ -19,10 +19,10 @@ public class Animal {
         return eyes;
     }
 
-    private Colour bodyÑolor;
+    private Colour bodyColor;
     private Eyes eyes;
 
-    public Animal(String name, String gender, Colour bodyÑolor, Eyes eyes) {
+    public Animal(String name, String gender, Colour bodyColor, Eyes eyes) {
         this.name = name;
         this.gender = gender;
         this.bodyÑolor = bodyÑolor;
@@ -30,7 +30,7 @@ public class Animal {
     }
 
     public String info(){
-        return "\nÂèä: " + name + " \nÏîë: " + gender + " \nÖâåò: " + bodyÑolor + " \nÖâåò ãëàç: " + eyes.getColour() + " \nÔîðìà ãëàç: " + eyes.getForm();
+        return "\nВид: " + name + " \nПол: " + gender + " \nЦвет: " + bodyСolor + " \nЦвет глаз: " + eyes.getColour() + " \nФорма глаз: " + eyes.getForm();
     }
 }
  
