@@ -10,18 +10,18 @@ public final class Snake extends Reptile {
         return isItPoisonous;
     }
 
-    public Snake(String name, String gender, Colour bodyÑolor, Eyes eyes, String isHaveScale, String isCanSwim, String isItPredator, int length, String isItPoisonous) {
-        super(name, gender, bodyÑolor, eyes, isHaveScale, isCanSwim, isItPredator);
+    public Snake(String name, String gender, Colour bodyĞ¡olor, Eyes eyes, String isHaveScale, String isCanSwim, String isItPredator, int length, String isItPoisonous) {
+        super(name, gender, bodyĞ¡olor, eyes, isHaveScale, isCanSwim, isItPredator);
         this.length = length;
         this.isItPoisonous = isItPoisonous;
     }
 
     @Override
     public String info(){
-        return super.info() + "\nÄëèíà: " + length + " ìåòğà " + " \nßäîâèòàÿ ëè: " +isItPoisonous;
+        return super.info() + "\nĞ”Ğ»Ğ¸Ğ½Ğ°: " + length + " Ğ¼ĞµÑ‚Ñ€Ğ° " + " \nĞ¯Ğ´Ğ¾Ğ²Ğ¸Ñ‚Ğ°Ñ Ğ»Ğ¸: " +isItPoisonous;
     }
     @Override
     void age(int age){
-        System.out.println("Âîçğàñò ıòîé çìåè: " + age + " ëåò");
+        System.out.println("Ğ’Ğ¾Ğ·Ñ€Ğ°ÑÑ‚ ÑÑ‚Ğ¾Ğ¹ Ğ·Ğ¼ĞµĞ¸: " + age + " Ğ»ĞµÑ‚");
     }
 }
